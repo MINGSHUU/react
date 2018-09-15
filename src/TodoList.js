@@ -57,7 +57,6 @@ class TodoList extends Component {
       // jsx 语法
       <Fragment>
         <div>
-          {/*<input value={this.state.inputValue} onChange={this.handleInputChange.bind(this)} />*/}
           <input value={this.state.inputValue} onChange={this.handleInputChange} />
           <button className='blue-btn' style={{background:'red', color:'#fff'}} onClick={this.handleBtnClick}>add</button>
         </div>
